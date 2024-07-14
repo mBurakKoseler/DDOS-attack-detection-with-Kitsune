@@ -2,10 +2,11 @@
 Working on developing and detailing DDOS ​​attack detection with kitsune
 The Kitsune project is a system that uses artificial intelligence and machine learning techniques to detect anomalies in network traffic.
 
-Resource:
+--Resource:
 Yisroel Mirsky, Tomer Doitshman, Yuval Elovici, and Asaf Shabtai, "Kitsune: An Ensemble of Autoencoders for Online Network Intrusion Detection", Network and Distributed System Security Symposium 2018 (NDSS'18)
+--
 
---Information about the general purpose of the project and the data set
+Information about the general purpose of the project and the data set
   Mirai is used as ready network traffic data in the project. The Mirai DDOS dataset is a dataset containing attacks of the Mirai botnet. This data set typically includes network traffic logs or packet capture (pcap) files. This package file, consisting of approximately 700.000 packages, contains DDOS attack packages after approximately 120 thousandth packages. The first part of this package, which does not include the attack package, is useful for training and pre-anomaly detection training.
 Kitsune extracts attributes from network traffic and feeds these attributes into a machine learning model. Feature vectors are processed by an anomaly detection algorithm. Kitsune often uses machine learning algorithms such as deep learning techniques and autoencoders. In the application phase, the model analyzes the new data stream and tries to detect abnormal behavior.
 
