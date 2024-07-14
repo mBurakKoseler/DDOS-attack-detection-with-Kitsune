@@ -9,10 +9,6 @@ Kitsune extracts attributes from network traffic and feeds these attributes into
 
 --Changes and improvements made on the project
 a) Parameter research&change
-    Old parameters:
-    [ max_autoencoder_size=10, FM_grace_period=5000, AD_grace_period=50000, learning_rate=0.1, hidden_ratio=0.75, threshold=0.5 ]
-    New parameters:
-    [ max_autoencoder_size: 15, FM_grace_period: 10000, AD_grace_period: 75000, learning_rate: 0.05, hidden_ratio: 0.8, threshold: 0.4 ]
 
 b) Logging and Error Tracking
   During and after attack detection, indexes were assigned to packages to more clearly understand when and in which package the attack started or ended. The current time and the moment in which the code is running are shown separately. And these data are saved in the file named attack_detection.txt.
