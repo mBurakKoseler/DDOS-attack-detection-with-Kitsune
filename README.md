@@ -1,4 +1,4 @@
-# DDOS-attack-detection-w-Kitsune
+# Improving DDOS attack detection with Kitsune
 Working on developing and detailing DDOS ​​attack detection with kitsune
 The Kitsune project is a system that uses artificial intelligence and machine learning techniques to detect anomalies in network traffic.
 
