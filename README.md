@@ -31,6 +31,7 @@ All graphs and calculation results resulting from this addition are shown in the
 
 All these processes were translated into Turkish and printed out.
 
---Resource:
+--
+Resource:
 Yisroel Mirsky, Tomer Doitshman, Yuval Elovici, and Asaf Shabtai, "Kitsune: An Ensemble of Autoencoders for Online Network Intrusion Detection", Network and Distributed System Security Symposium 2018 (NDSS'18)
 --
