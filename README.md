@@ -7,7 +7,7 @@ Information about the general purpose of the project and the data set
 Kitsune extracts attributes from network traffic and feeds these attributes into a machine learning model. Feature vectors are processed by an anomaly detection algorithm. Kitsune often uses machine learning algorithms such as deep learning techniques and autoencoders. In the application phase, the model analyzes the new data stream and tries to detect abnormal behavior.
 
 
---Changes and improvements made on the project
+Changes and improvements made on the project
 a) Parameter research&change
 
 b) Logging and Error Tracking
